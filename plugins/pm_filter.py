@@ -135,7 +135,7 @@ async def refercall(bot, query):
     reply_markup = InlineKeyboardMarkup(btn)
     await bot.send_photo(
         chat_id=query.message.chat.id,
-        photo="https://graph.org/file/1a2e64aee3d4d10edd930.jpg",
+        photo="https://envs.sh/7f-.jpg",
         caption=f'<b>ʜᴀʏ ʏᴏᴜʀ ʀᴇꜰᴇʀ ʟɪɴᴋ:\n\nhttps://telegram.me/{bot.me.username}?start=reff_{query.from_user.id}\n\nꜱʜᴀʀᴇ ᴛʜɪꜱ ʟɪɴᴋ ᴡɪᴛʜ ʏᴏᴜʀ ꜰʀɪᴇɴᴅꜱ, ᴇᴀᴄʜ ᴛɪᴍᴇ ᴛʜᴇʏ ᴊᴏɪɴ, ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ 𝟣𝟢 ʀᴇꜰᴇʀʀᴀʟ ᴘᴏɪɴᴛꜱ ᴀɴᴅ ᴀꜰᴛᴇʀ 𝟣𝟢𝟢 ᴘᴏɪɴᴛꜱ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ 𝟣 ᴍᴏɴᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ.\n\n𝟣 ʀᴇꜰᴇʀ = 𝟣𝟢 ᴘᴏɪɴᴛꜱ.</b>',
         reply_markup=reply_markup,
         parse_mode=enums.ParseMode.HTML
