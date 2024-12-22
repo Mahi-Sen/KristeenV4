@@ -70,18 +70,18 @@ BOT WORKING PROPERLY 🔥"""
 Bʏ @Dev77_xD</b>"""
         
     
-    STATUS_TXT = """<b><bockquote><u>🗃 ᴅᴀᴛᴀʙᴀsᴇ 1 🗃</u></blockquote>
+    STATUS_TXT = """<b><bockquote>🗃 ᴅᴀᴛᴀʙᴀsᴇ 1 🗃</blockquote>
 
-» ᴛᴏᴛᴀʟ ᴜsᴇʀs - <code>{}</code>
-» ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs - <code>{}</code>
-» ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
+» ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ - <code>{}</code>
+» ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘꜱ - <code>{}</code>
+» ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
 
-<blockquote><u>🗳 ᴅᴀᴛᴀʙᴀsᴇ 2 🗳</u></blockquote>
+<blockquote>🗳 ᴅᴀᴛᴀʙᴀsᴇ 2 🗳</blockquote>
 
-» ᴛᴏᴛᴀʟ ꜰɪʟᴇs - <code>{}</code>
-» ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
+» ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ - <code>{}</code>
+» ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
 
-<u>🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 🤖</u>
+<blockquote>🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 🤖</blockquote>
 
 » ᴜᴘᴛɪᴍᴇ - <code>{}</code>
 » ʀᴀᴍ - <code>{}%</code>
