@@ -158,7 +158,17 @@ async def plan(client, message):
     users = message.from_user.mention 
     btn = [[
 	
-        InlineKeyboardButton("💸 𝗖𝗹𝗶𝗰𝗸 𝗔𝗹𝗹 𝗣𝗹𝗮𝗻𝘀 & 𝗣𝗿𝗶𝗰𝗲𝘀 💸", callback_data='free')],[InlineKeyboardButton("❌ ᴄʟᴏꜱᴇ ❌", callback_data="close_data")
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url='https://t.me/Dev77_xD')
+        ],[
+	    InlineKeyboardButton('👀 ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ʜᴇʀᴇ 👀', url='https://t.me/HowToVerify_xD/20')
+	],[
+	    InlineKeyboardButton('💭 ᴀɴʏ ǫᴜᴇʀʏ', url='https://t.me/Dev77_xD'),
+	    InlineKeyboardButton('💎 𝗖𝘂𝘀𝘁𝗼𝗺 𝗣𝗹𝗮𝗻 💎', callback_data='other')
+        ],[
+	    InlineKeyboardButton('‼️ ᴘʀᴏᴏꜰꜱ ‼️', URL='https://t.me/Dev77_xD_Proofs'),
+            InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
+	],[
+	    InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='broze')
     ]]
-    await message.reply_photo(photo="https://envs.sh/zkr.jpg", caption=script.PREPLANS_TXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
+    await message.reply_photo(photo="https://envs.sh/zkr.jpg", caption=script.FREE_TXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
     
